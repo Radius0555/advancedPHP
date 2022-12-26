@@ -1,0 +1,12 @@
+Include i Require dołącza cały tekst/kod/znacznik który istnieje w określonym pliku
+Include - wygeneruje ostrzeżenie a skrypt będzie kontynuowany
+Require - spowoduje błąd krytyczny i zatrzyma skrypt
+
+UŻYWANIE:
+require -gdy plik jest wymagany
+include - gdy plik nie jest wymagany
+
+include_once - jeżeli kod z pliku został już uwzględniony, nie zostanie on ponownie uwzględniony.
+Zostanie dołączony tylko raz. 
+Może być  dołączony i oceniony więcej niż jeden raz podczas określonego wykonania skryptu.
+require_once - sprawdzi czy plik został dołączony, jeżeli tak nie dołączy go ponownie.
